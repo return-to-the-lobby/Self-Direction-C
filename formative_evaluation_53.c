@@ -16,7 +16,7 @@ int second()
     double b = 22.34;
     double c = a + b;
 
-    printf("\t%.2f %.2f %.2f", a, b, c);
+    printf("%7.2f %7.2f %7.2f", a, b, c);
     return 0;
 }
 
@@ -50,7 +50,7 @@ int fifth()
     printf("yard? ");
     scanf_s("%lf", &a);
 
-    printf("%lf * yard = %.1lf", a, 91.44 * a);
+    printf("%.1lf * yard = %.1lf", a, 91.44 * a);
     return 0;
 }
 
@@ -60,5 +60,5 @@ int main()
     // return second();
     // return third();
     // return fourth();
-    // return fifth();
+    return fifth();
 }
