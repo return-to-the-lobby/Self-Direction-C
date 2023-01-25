@@ -7,7 +7,7 @@ int main() {
 
 	for (int index = 0; index < 11; index++) {
 		scanf_s("%d", &numbers[index]);
-;		if (numbers[index] < 1 || numbers[index] > 10) break;
+		if (numbers[index] < 1 || numbers[index] > 10) break;
 	}
 
 	for (int index = 0; index < 11; index++) {
