@@ -1,4 +1,2 @@
-# What is this repository?
-This repository saves the problems that I solved from the book named "자기주도 C언어 프로그래밍". <br>
-The book is pretty good to learn C if you learned Korea and can understand Korean. <br>
-You can buy it [here](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=286439882). <br>
+# 이 레포지토리는 뭔가요?
+제가 "자기주도 C언어 프로그래밍이라는 책에서 푼 문제들을 저장하는 레포지토리입니다."
