@@ -1,5 +1,0 @@
-scanf 함수가 사용되는 코드의 맨 윗줄에 _CRT_SECURE_NO_WARNINGS를 정의하는 이유는 scanf의 보안 문제 때문에 scanf_s를 써야하는데 뭔가 마음에 안 들어서 제가 그냥 정의해서 scanf 쓰는겁니다.
-없애고 scanf_s 쓰셔도 작동하긴 해요.
-
-printf 대신 puts 함수를 썼던 이유는 그냥 책에서 puts 함수를 쓰라고 해서입니다.
-printf로 대체하고 마지막에 \n만 넣으면 그게 puts입니다.
