@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int max() {
+int max_() {
 	int n[10];
 
 	int m = 0;
@@ -16,7 +16,7 @@ int max() {
 	return 0;
 }
 
-int min() {
+int min_() {
 	int n[10];
 
 	int m = 4294967296;
