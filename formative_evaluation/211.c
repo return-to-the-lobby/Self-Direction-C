@@ -39,8 +39,25 @@ void second() {
 	return;
 }
 
+void third() {
+	int numbers[10] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+	scanf("%d %d", &numbers[0], &numbers[1]);
+
+	for (int index = 2; index < 10; index++) {
+		numbers[index] = (numbers[index - 2] + numbers[index - 1]) % 10;
+	}
+
+	for (int index = 0; index < 10; index++) {
+		printf("%d ", numbers[index]);
+	}
+
+	return;
+}
+
+
 int main() {
 	// first();
 	// second();
+	// third();
 	return 0;
 }
