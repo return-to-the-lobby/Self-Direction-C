@@ -10,7 +10,7 @@ inline int swap_value(int first, int second) {
 	return printf("첫 번째 함수 실행 중: first = %d, second = %d\n", first, second);
 }
 
-inline int swap_reference(int *first, int *second) {
+inline int swap_reference(int *first, int *second) { // C에는 Pass By Reference 같은 기능이 없다. 그러므로 포인터를 사용한다.
 	int temp = *second;
 	*second = *first;
 	*first = temp;
