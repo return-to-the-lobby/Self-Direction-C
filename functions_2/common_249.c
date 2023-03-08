@@ -20,6 +20,6 @@ int main() {
 	float area_round = roundf(area);
 	float area_ceil = ceilf(area);
 
-	printf("area of the circle: %.0f\nfloored: %.0f\nrounded: %.0f\nceiled:%.0f\n", area, area_floor, area_round, area_ceil);
+	printf("Area of the circle: %.0f\nfloored: %.0f\nrounded: %.0f\nceiled:%.0f\n", area, area_floor, area_round, area_ceil);
 	return 0;
 }
