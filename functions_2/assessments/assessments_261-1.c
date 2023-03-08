@@ -29,7 +29,7 @@ void sort(int array[15]) {
 
 void output(int array[15], int count) {
 	for (int index = 0; index < count; index++) {
-		if (array[index] <= 0) continue;
+		if (array[index] == 0) continue;
 		else printf("%d ", array[index]);
 	}
 }
